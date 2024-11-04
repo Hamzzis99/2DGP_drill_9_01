@@ -32,7 +32,7 @@ def reset_world():
     grass = Grass(400, 30)
     game_world.add_object(grass, 2)
 
-    boy = Boy()
+    boy = Boy() # 400, 60 좌표 지정
     game_world.add_object(boy, 1)
 
     grass2 = Grass(400, 60)
